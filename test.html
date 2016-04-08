@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Client-side error logging test</title>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.12.3.min.js'></script>
+    <script type='text/javascript' src='/errorlog.js'></script>
+  </head>
+  <body>
+    <h1>Client-side error logging test</h1>
+    <script type='text/javascript'>
+      throw new Error("this error came from the client side");
+    </script>
+  </body>
+</html>
