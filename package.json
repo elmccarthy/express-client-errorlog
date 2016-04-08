@@ -1,0 +1,37 @@
+{
+  "name": "express-client-errorlog",
+  "version": "0.0.1",
+  "description": "Express middleware for server-side logging of client-side Javascript errors",
+  "keywords": [
+    "express",
+    "error",
+    "client-side",
+    "javascript"
+  ],
+  "author": "Luke McCarthy <mccarthy@elmonline.ca> (http://elmonline.ca)",
+  "homepage": "https://github.com/elmccarthy/express-client-errorlog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmccarthy/express-client-errorlog"
+  },
+  "bugs": {
+    "url": "https://github.com/elmccarthy/express-client-errorlog/issues"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint . --exclude node_modules",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "lodash": "^4.8.2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  }
+}
