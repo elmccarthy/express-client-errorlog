@@ -15,7 +15,7 @@
 	}
 	var match = new Error().stack.match(/https?:\/\/(.+):\d+:\d+/); // see <https://stackoverflow.com/questions/2976651/javascript-how-do-i-get-the-url-of-script-being-called#comment60538797_22165218>
 	if (match) {
-		match = match[1].match(/[^/]+\/(.*\/)/);
+		match = match[1].match(/[^/]+(.*)errorlog\.js/);
 		var prefix = match ? match[1] : '';
 		errorlog.configure({prefix: prefix});
 	}
