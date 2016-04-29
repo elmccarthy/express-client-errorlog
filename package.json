@@ -1,6 +1,6 @@
 {
   "name": "express-client-errorlog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware for server-side logging of client-side Javascript errors",
   "keywords": [
     "express",
